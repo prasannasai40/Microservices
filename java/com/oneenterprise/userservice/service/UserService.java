@@ -18,19 +18,19 @@ public class UserService {
         users.put(1, new UserResponse(
                 1,
                 "Sai",
-                "sai@example.com"
+                "sai@123.com"
         ));
 
         users.put(2, new UserResponse(
                 2,
                 "Rahul",
-                "rahul@example.com"
+                "rahul@456.com"
         ));
 
         users.put(3, new UserResponse(
                 3,
                 "Priya",
-                "priya@example.com"
+                "priya@789.com"
         ));
     }
 

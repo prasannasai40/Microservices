@@ -1,7 +1,5 @@
 package com.oneenterprise.userservice.controller;
 
-import jakarta.validation.constraints.Positive;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.oneenterprise.userservice.dto.UserResponse;
 import com.oneenterprise.userservice.service.UserService;
+
+import jakarta.validation.constraints.Positive;
 
 @RestController
 @RequestMapping("/api/users")
